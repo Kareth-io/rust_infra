@@ -1,6 +1,6 @@
-PLUGINS=$(egrep "^#" plugins.txt)
-PLUGIN_DIRECTORY=./plugins/
-
+SCRIPT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+PLUGINS=$(egrep -v "^#" ${SCRIPT_PATH}/plugins.txt)
+PLUGIN_DIRECTORY=${SCRIPT_PATH}/plugins/
 
 mkdir -vp ${PLUGIN_DIRECTORY}
 

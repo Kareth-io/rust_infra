@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Global Envs
 RCON_PASSWD=$(echo $RANDOM | md5sum | head -c 10)
 GSM_CONFIG="./lgsm/config-lgsm/rustserver/common.cfg"
