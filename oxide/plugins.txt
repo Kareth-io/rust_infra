@@ -1,0 +1,11 @@
+#A list of plugins to be installed
+AdminPanel
+FurnaceSplitter
+GatherManager
+TimedWorkbench
+NightLantern
+UnburnableMeat
+ClearNight
+AutoStashTraps
+CompoundOptions
+MagicLoot
