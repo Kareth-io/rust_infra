@@ -7,7 +7,7 @@ GSM_CONFIG="./lgsm/config-lgsm/rustserver/common.cfg"
 #Pull down GSM
 if [ ! -f linuxgsm.sh ]; then
     wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh
-    sudo ./linuxgsm.sh rustserver
+    ./linuxgsm.sh rustserver
 fi
 
 #Install Rust
