@@ -11,8 +11,8 @@ if [ ! -f linuxgsm.sh ]; then
 fi
 
 #Install Rust
-sudo ./rustserver auto-install
-sudo ./rustserver mods-install <<< $'rustoxide\nyes\n'
+./rustserver auto-install
+./rustserver mods-install <<< $'rustoxide\nyes\n'
 
 #Install plugins
 ./oxide/setup_plugins.sh
