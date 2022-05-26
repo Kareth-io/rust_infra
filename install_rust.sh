@@ -18,7 +18,11 @@ sudo ./rustserver mods-install <<< $'rustoxide\nyes\n'
 ./oxide/setup_plugins.sh
 
 #Update configs
-sed -i 's/CHANGE_ME/${RCON_PASSWD}/g' ${GSM_CONFIG}
+sed -i "s/CHANGE_ME/${RCON_PASSWD}/g" ${GSM_CONFIG}
 
 #install RCON
-cargo install rust-rcon 
+cargo install rust-rcon
+
+export PATH=${HOME}/.cargo/bin:${PATH}
+echo "PATH=${HOME}/.cargo/bin:${PATH}" >> ~/.bashrc
+

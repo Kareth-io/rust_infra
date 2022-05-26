@@ -8,4 +8,8 @@ UnburnableMeat
 ClearNight
 AutoStashTraps
 CompoundOptions
-MagicLoot
+BetterLoot
+StackSizeController
+TimeOfDay
+SignArtist
+MonumentsRecycler
