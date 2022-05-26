@@ -15,7 +15,7 @@ fi
 ./rustserver mods-install <<< $'rustoxide\nyes\n'
 
 #Install plugins
-.serverfiles/oxide/setup_plugins.sh
+./serverfiles/oxide/setup_plugins.sh
 
 #Update configs
 sed -i "s/CHANGE_ME/${RCON_PASSWD}/g" ${GSM_CONFIG}
